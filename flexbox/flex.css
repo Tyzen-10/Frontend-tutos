@@ -1,0 +1,80 @@
+/* body{
+    background-color: darkgrey;
+    padding: 30px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}   
+
+.nav-list > * {
+    font-weight: 500;
+    font-size: large;
+}
+
+.columns{
+    display: flex;
+    gap: 1rem;
+    
+}
+.card{
+    background-color: coral;
+    flex: 1; /* makes childs of same size */
+    /* max-width: 300px; 
+    padding: 1rem;
+}
+ */
+
+ /* from chatgpt*/
+ /* Define CSS variables */
+:root {
+    --primary-color: coral;
+  }
+  
+  /* Apply styles to the nav */
+  nav {
+    background-color: var(--primary-color);
+    padding: 1rem;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .nav-list li {
+    font-weight: 500;
+    font-size: large;
+  }
+  
+  /* Apply styles to the cards */
+  .columns {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  /* Apply styles to the body */
+  body {
+    background-color: darkgrey;
+    padding: 30px;
+    margin: 0;
+  }
