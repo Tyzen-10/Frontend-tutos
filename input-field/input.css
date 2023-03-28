@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(135deg, #71b7e6, #9b59b6);
+    
+}
+.container-outer{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fields{
+    display: block;
+    width: 330px;
+    background-color: lightskyblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fields label{
+    /*could'nt properly center label by using any other method except txt align*/    
+    display: block;
+    text-align: center;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fields input{
+    display: block;
+    
+    /* margin: auto; */
+/*     height: 100%;*/
+    width: 100%;
+/*     border: 0px;
+    padding: 0; */
+    border: 1px solid lightgray;
+    border-radius: 5px; 
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px;
+   
+
+}
+.chumma{
+    margin: auto;
+}
+
+
+/* important 
+1.box sizing border box imporant for accurate sizing calc
+2.margin auto
+
+*/
