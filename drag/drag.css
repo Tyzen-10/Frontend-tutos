@@ -1,0 +1,33 @@
+.container{
+    width: 320px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem
+    ;
+}
+.container .box{
+    border: 2px solid;
+    width: 160px
+    
+}
+.image{
+    background-image: url("EE2.jpg");
+    background-size: cover;
+
+}
+ul{
+    margin: auto;
+    width: 200px;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+
+}
+li{
+    flex-grow: 1;
+}
+li:hover{
+    color: brown;
+    background-color: black;
+}
